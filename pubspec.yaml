@@ -1,0 +1,26 @@
+name: firebase_mobx
+description: MobX with Firebase
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # MobX
+  mobx: ^1.0.2
+  mobx_codegen: ^1.0.2
+  flutter_mobx: ^1.0.1
+  build_runner: ^1.7.4
+  # Firebase
+  firebase_auth: ^0.15.4
+  google_sign_in: ^4.1.1
+  cloud_firestore: ^0.13.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

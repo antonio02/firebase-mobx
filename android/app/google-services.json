@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "447405673418",
+    "firebase_url": "https://fir-mobx.firebaseio.com",
+    "project_id": "fir-mobx",
+    "storage_bucket": "fir-mobx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447405673418:android:fa743331f392891a7d9d33",
+        "android_client_info": {
+          "package_name": "com.teste.firebase_mobx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447405673418-r5d28rmvqig1a0isboib8rkv81kofvug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teste.firebase_mobx",
+            "certificate_hash": "1b9bc5cf76692c245f946ce252698e8c6080b65f"
+          }
+        },
+        {
+          "client_id": "447405673418-bqptm21pmhnhaciu79gq4cj4ainshlpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBovlu5-U2CHm_0WJ7dHB3YioG0yikYOUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447405673418-bqptm21pmhnhaciu79gq4cj4ainshlpc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
