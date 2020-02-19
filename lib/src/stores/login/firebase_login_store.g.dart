@@ -8,8 +8,8 @@ part of 'firebase_login_store.dart';
 
 // ignore_for_file: non_constant_identifier_names, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
 
-mixin _$FirebaseLoginStore on FirebaseLoginBase, Store {
-  final _$signedInAtom = Atom(name: 'FirebaseLoginBase.signedIn');
+mixin _$FirebaseLoginStore on _FirebaseLoginBase, Store {
+  final _$signedInAtom = Atom(name: '_FirebaseLoginBase.signedIn');
 
   @override
   bool get signedIn {
@@ -26,7 +26,7 @@ mixin _$FirebaseLoginStore on FirebaseLoginBase, Store {
     }, _$signedInAtom, name: '${_$signedInAtom.name}_set');
   }
 
-  final _$currentUserAtom = Atom(name: 'FirebaseLoginBase.currentUser');
+  final _$currentUserAtom = Atom(name: '_FirebaseLoginBase.currentUser');
 
   @override
   FirebaseUser get currentUser {

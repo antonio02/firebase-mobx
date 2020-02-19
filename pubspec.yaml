@@ -10,17 +10,25 @@ dependencies:
     sdk: flutter
   # MobX
   mobx: ^1.0.2
-  mobx_codegen: ^1.0.2
   flutter_mobx: ^1.0.1
-  build_runner: ^1.7.4
+
   # Firebase
   firebase_auth: ^0.15.4
   google_sign_in: ^4.1.1
   cloud_firestore: ^0.13.2+1
 
+  # Provider
+  provider: ^4.0.4
+
+  # Log
+  logger: ^0.8.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # MobX
+  mobx_codegen: ^1.0.2
+  build_runner: ^1.7.4
 
 flutter:
   uses-material-design: true
